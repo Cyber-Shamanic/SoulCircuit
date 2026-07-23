@@ -1,0 +1,16 @@
+project: soul-circuit
+version: 0.1.0
+policy: "Every sacred quotation must be logged per track before release."
+base_sources:
+  - id: tanakh-mechon-mamre
+    title: "תנ״ך — מכון ממרא"
+    url: "https://mechon-mamre.org/"
+    use: "Primary text lookup and verification"
+  - id: sefaria
+    title: "Sefaria"
+    url: "https://www.sefaria.org/"
+    use: "Jewish text library and source location"
+  - id: ben-yehuda
+    title: "פרויקט בן־יהודה"
+    url: "https://benyehuda.org/"
+    use: "Hebrew public-domain literature lookup"

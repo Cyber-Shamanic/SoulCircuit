@@ -1,0 +1,16 @@
+track_id: SC-01
+review_status: pending
+reviewed_by: ""
+last_reviewed: ""
+entries:
+  - id: SRC-01
+    kind: sacred-quotation
+    relation: thematic-anchor
+    work: "תהילים"
+    location: "נ״א, י״ב"
+    edition: ""
+    url: "https://mechon-mamre.org/"
+    exact_quote: "לֵב טָהוֹר בְּרָא־לִי אֱלֹהִים; וְרוּחַ נָכוֹן חַדֵּשׁ בְּקִרְבִּי."
+    usage_in_song: "Album-level inspiration; not yet inserted into lyrics."
+    verification: pending
+    notes: "Verify punctuation and edition before lyrics lock."

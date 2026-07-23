@@ -1,0 +1,407 @@
+schema_version: 1
+project: soul-circuit
+allowed_statuses: [seed, sources, draft, lyrics-lock, production, mix, master, released]
+tracks:
+  - id: SC-01
+    slug: zero-and-light
+    title_he: "אֶפֶס וָאוֹר"
+    gate: awakening
+    status: seed
+    album: 01-soul-circuit
+    order: 1
+    theme: awakening
+    source_review: pending
+    lyrics_version: 0.0.0
+  - id: SC-03
+    slug: voice-inside-noise
+    title_he: "קוֹל בְּתוֹךְ הָרַעַשׁ"
+    gate: awakening
+    status: seed
+    album: 01-soul-circuit
+    order: 2
+    theme: discernment
+    source_review: pending
+    lyrics_version: 0.0.0
+  - id: SC-07
+    slug: encrypted-heart
+    title_he: "לֵב מֻצְפָּן"
+    gate: awakening
+    status: seed
+    album: 01-soul-circuit
+    order: 3
+    theme: discernment
+    source_review: pending
+    lyrics_version: 0.0.0
+  - id: SC-11
+    slug: ego-mask
+    title_he: "מַסֵּכַת הָאֱגוֹ"
+    gate: struggle
+    status: seed
+    album: 01-soul-circuit
+    order: 4
+    theme: struggle
+    source_review: pending
+    lyrics_version: 0.0.0
+  - id: SC-14
+    slug: no-shortcut
+    title_he: "אֵין קִצּוּר דֶּרֶךְ"
+    gate: struggle
+    status: seed
+    album: 01-soul-circuit
+    order: 5
+    theme: struggle
+    source_review: pending
+    lyrics_version: 0.0.0
+  - id: SC-18
+    slug: fear-does-not-lead
+    title_he: "הַפַּחַד לֹא מְנַהֵל"
+    gate: struggle
+    status: seed
+    album: 01-soul-circuit
+    order: 6
+    theme: struggle
+    source_review: pending
+    lyrics_version: 0.0.0
+  - id: SC-21
+    slug: return-to-heart
+    title_he: "שָׁב אֶל הַלֵּב"
+    gate: return
+    status: seed
+    album: 01-soul-circuit
+    order: 7
+    theme: return
+    source_review: pending
+    lyrics_version: 0.0.0
+  - id: SC-24
+    slug: prayer-in-source-code
+    title_he: "תְּפִלָּה בְּקֹד מָקוֹר"
+    gate: return
+    status: seed
+    album: 01-soul-circuit
+    order: 8
+    theme: return
+    source_review: pending
+    lyrics_version: 0.0.0
+  - id: SC-27
+    slug: shabbat-in-the-circuit
+    title_he: "שַׁבָּת בַּמַּעְגָּל"
+    gate: return
+    status: seed
+    album: 01-soul-circuit
+    order: 9
+    theme: unity
+    source_review: pending
+    lyrics_version: 0.0.0
+  - id: SC-32
+    slug: kindness-like-fire
+    title_he: "חֶסֶד כְּפִרְצוֹת אֵשׁ"
+    gate: mission
+    status: seed
+    album: 01-soul-circuit
+    order: 10
+    theme: mission
+    source_review: pending
+    lyrics_version: 0.0.0
+  - id: SC-36
+    slug: light-to-the-network
+    title_he: "אוֹר לָרֶשֶׁת"
+    gate: mission
+    status: seed
+    album: 01-soul-circuit
+    order: 11
+    theme: mission
+    source_review: pending
+    lyrics_version: 0.0.0
+  - id: SC-40
+    slug: repair-in-the-field
+    title_he: "תִּקּוּן בַּשֶּׁטַח"
+    gate: mission
+    status: seed
+    album: 01-soul-circuit
+    order: 12
+    theme: mission
+    source_review: pending
+    lyrics_version: 0.0.0
+
+  # Remaining seeds in the 40-track master map. They are not yet assigned
+  # to Album 01, so album order stays null until a future sequence selects them.
+  - id: SC-02
+    slug: grateful-in-the-system
+    title_he: "מוֹדֶה בַּמַּעֲרֶכֶת"
+    gate: awakening
+    status: seed
+    album: unassigned
+    order: null
+    theme: awakening
+    source_review: pending
+    lyrics_version: 0.0.0
+  - id: SC-04
+    slug: first-breath
+    title_he: "נְשִׁימָה רִאשׁוֹנָה"
+    gate: awakening
+    status: seed
+    album: unassigned
+    order: null
+    theme: awakening
+    source_review: pending
+    lyrics_version: 0.0.0
+  - id: SC-05
+    slug: heart-goes-online
+    title_he: "הַלֵּב עוֹלֶה לָרֶשֶׁת"
+    gate: awakening
+    status: seed
+    album: unassigned
+    order: null
+    theme: awakening
+    source_review: pending
+    lyrics_version: 0.0.0
+  - id: SC-06
+    slug: secret-of-the-spark
+    title_he: "סוֹד הַנִּיצוֹץ"
+    gate: awakening
+    status: seed
+    album: unassigned
+    order: null
+    theme: awakening
+    source_review: pending
+    lyrics_version: 0.0.0
+  - id: SC-08
+    slug: between-night-and-light
+    title_he: "בֵּין לַיְלָה לְאוֹר"
+    gate: awakening
+    status: seed
+    album: unassigned
+    order: null
+    theme: discernment
+    source_review: pending
+    lyrics_version: 0.0.0
+  - id: SC-09
+    slug: morning-gate
+    title_he: "שַׁעַר הַבֹּקֶר"
+    gate: awakening
+    status: seed
+    album: unassigned
+    order: null
+    theme: awakening
+    source_review: pending
+    lyrics_version: 0.0.0
+  - id: SC-10
+    slug: here-i-am
+    title_he: "הִנְנִי"
+    gate: awakening
+    status: seed
+    album: unassigned
+    order: null
+    theme: awakening
+    source_review: pending
+    lyrics_version: 0.0.0
+  - id: SC-12
+    slug: fear-feed
+    title_he: "פִּיד שֶׁל פַּחַד"
+    gate: struggle
+    status: seed
+    album: unassigned
+    order: null
+    theme: struggle
+    source_review: pending
+    lyrics_version: 0.0.0
+  - id: SC-13
+    slug: not-every-light-is-truth
+    title_he: "לֹא כָּל אוֹר הוּא אֱמֶת"
+    gate: struggle
+    status: seed
+    album: unassigned
+    order: null
+    theme: discernment
+    source_review: pending
+    lyrics_version: 0.0.0
+  - id: SC-15
+    slug: war-of-thoughts
+    title_he: "מִלְחֶמֶת הַמַּחֲשָׁבוֹת"
+    gate: struggle
+    status: seed
+    album: unassigned
+    order: null
+    theme: struggle
+    source_review: pending
+    lyrics_version: 0.0.0
+  - id: SC-16
+    slug: impulse-changes-names
+    title_he: "הַיֵּצֶר מַחְלִיף שֵׁמוֹת"
+    gate: struggle
+    status: seed
+    album: unassigned
+    order: null
+    theme: struggle
+    source_review: pending
+    lyrics_version: 0.0.0
+  - id: SC-17
+    slug: break-the-loop
+    title_he: "לִשְׁבֹּר אֶת הַלּוּפּ"
+    gate: struggle
+    status: seed
+    album: unassigned
+    order: null
+    theme: struggle
+    source_review: pending
+    lyrics_version: 0.0.0
+  - id: SC-19
+    slug: truth-without-filter
+    title_he: "אֱמֶת בְּלִי פִּילְטֶר"
+    gate: struggle
+    status: seed
+    album: unassigned
+    order: null
+    theme: discernment
+    source_review: pending
+    lyrics_version: 0.0.0
+  - id: SC-20
+    slug: gatekeeper
+    title_he: "שׁוֹמֵר הַסַּף"
+    gate: struggle
+    status: seed
+    album: unassigned
+    order: null
+    theme: discernment
+    source_review: pending
+    lyrics_version: 0.0.0
+  - id: SC-22
+    slug: forgiveness-does-not-delete
+    title_he: "סְלִיחָה לֹא מוֹחֶקֶת"
+    gate: return
+    status: seed
+    album: unassigned
+    order: null
+    theme: return
+    source_review: pending
+    lyrics_version: 0.0.0
+  - id: SC-23
+    slug: tear-like-mikveh
+    title_he: "דִּמְעָה כְּמִקְוֶה"
+    gate: return
+    status: seed
+    album: unassigned
+    order: null
+    theme: return
+    source_review: pending
+    lyrics_version: 0.0.0
+  - id: SC-25
+    slug: pure-heart
+    title_he: "לֵב טָהוֹר"
+    gate: return
+    status: seed
+    album: unassigned
+    order: null
+    theme: return
+    source_review: pending
+    lyrics_version: 0.0.0
+  - id: SC-26
+    slug: torah-inside-chaos
+    title_he: "תּוֹרָה בְּתוֹךְ הַתֹּהוּ"
+    gate: return
+    status: seed
+    album: unassigned
+    order: null
+    theme: return
+    source_review: pending
+    lyrics_version: 0.0.0
+  - id: SC-28
+    slug: faith-in-flight-mode
+    title_he: "אֱמוּנָה בְּמַצַּב טִיסָה"
+    gate: return
+    status: seed
+    album: unassigned
+    order: null
+    theme: return
+    source_review: pending
+    lyrics_version: 0.0.0
+  - id: SC-29
+    slug: melody-of-unity
+    title_he: "נִגּוּן שֶׁל אַחְדוּת"
+    gate: return
+    status: seed
+    album: unassigned
+    order: null
+    theme: unity
+    source_review: pending
+    lyrics_version: 0.0.0
+  - id: SC-30
+    slug: covenant-of-light
+    title_he: "בְּרִית שֶׁל אוֹר"
+    gate: return
+    status: seed
+    album: unassigned
+    order: null
+    theme: unity
+    source_review: pending
+    lyrics_version: 0.0.0
+  - id: SC-31
+    slug: rise-and-act
+    title_he: "קוּם וַעֲשֵׂה"
+    gate: mission
+    status: seed
+    album: unassigned
+    order: null
+    theme: mission
+    source_review: pending
+    lyrics_version: 0.0.0
+  - id: SC-33
+    slug: peace-at-home
+    title_he: "שָׁלוֹם בַּבַּיִת"
+    gate: mission
+    status: seed
+    album: unassigned
+    order: null
+    theme: unity
+    source_review: pending
+    lyrics_version: 0.0.0
+  - id: SC-34
+    slug: speech-that-builds
+    title_he: "לָשׁוֹן שֶׁבּוֹנָה"
+    gate: mission
+    status: seed
+    album: unassigned
+    order: null
+    theme: mission
+    source_review: pending
+    lyrics_version: 0.0.0
+  - id: SC-35
+    slug: wisdom-protects
+    title_he: "חָכְמָה מַגִּנָּה"
+    gate: mission
+    status: seed
+    album: unassigned
+    order: null
+    theme: mission
+    source_review: pending
+    lyrics_version: 0.0.0
+  - id: SC-37
+    slug: code-with-purpose
+    title_he: "קֹד עִם מַטָּרָה"
+    gate: mission
+    status: seed
+    album: unassigned
+    order: null
+    theme: mission
+    source_review: pending
+    lyrics_version: 0.0.0
+  - id: SC-38
+    slug: unity-beyond-the-screen
+    title_he: "אַחְדוּת מֵעֵבֶר לַמַּסָּךְ"
+    gate: mission
+    status: seed
+    album: unassigned
+    order: null
+    theme: unity
+    source_review: pending
+    lyrics_version: 0.0.0
+  - id: SC-39
+    slug: building-tomorrow
+    title_he: "בּוֹנֵה אֶת הַמָּחָר"
+    gate: mission
+    status: seed
+    album: unassigned
+    order: null
+    theme: mission
+    source_review: pending
+    lyrics_version: 0.0.0

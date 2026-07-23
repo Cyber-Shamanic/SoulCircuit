@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you reference this creative framework, credit Cyber Shamanic."
+title: "SoulCircuit — קוד הנשמה"
+type: software
+version: 0.1.0
+date-released: 2026-07-24
+authors:
+  - name: "Cyber Shamanic"
+repository-code: "https://github.com/Cyber-Shamanic/soul-circuit"
+url: "https://github.com/Cyber-Shamanic"
+contact:
+  email: "cybershamanic@gmail.com"

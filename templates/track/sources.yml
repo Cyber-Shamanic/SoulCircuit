@@ -1,0 +1,16 @@
+track_id: "{{TRACK_ID}}"
+review_status: pending
+reviewed_by: ""
+last_reviewed: ""
+entries:
+  - id: SRC-01
+    kind: sacred-quotation
+    relation: inspiration
+    work: ""
+    location: ""
+    edition: ""
+    url: ""
+    exact_quote: ""
+    usage_in_song: ""
+    verification: pending
+    notes: ""

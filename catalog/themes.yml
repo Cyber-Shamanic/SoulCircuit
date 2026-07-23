@@ -1,0 +1,19 @@
+themes:
+  - id: awakening
+    he: התעוררות
+    symbols: [light, dawn, breath, signal]
+  - id: discernment
+    he: בירור
+    symbols: [mirror, gate, filter, compass]
+  - id: struggle
+    he: מאבק
+    symbols: [loop, mask, firewall, storm]
+  - id: return
+    he: תשובה
+    symbols: [heart, water, path, covenant]
+  - id: unity
+    he: אחדות
+    symbols: [choir, roots, circle, threads]
+  - id: mission
+    he: שליחות
+    symbols: [hands, network, lamp, bridge]
